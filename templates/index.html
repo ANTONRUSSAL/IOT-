@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction App</title>
+</head>
+<body>
+    <h2>Enter Features for Prediction</h2>
+    <form action="{{ url_for('predict') }}" method="POST">
+        <label for="feature1">Feature 1:</label>
+        <input type="text" id="feature1" name="feature1" required><br><br>
+
+        <label for="feature2">Feature 2:</label>
+        <input type="text" id="feature2" name="feature2" required><br><br>
+
+        <label for="feature3">Feature 3:</label>
+        <input type="text" id="feature3" name="feature3" required><br><br>
+
+        <label for="feature4">Feature 4:</label>
+        <input type="text" id="feature4" name="feature4" required><br><br>
+
+        <label for="feature5">Feature 5:</label>
+        <input type="text" id="feature5" name="feature5" required><br><br>
+
+        <label for="feature6">Feature 6:</label>
+        <input type="text" id="feature6" name="feature6" required><br><br>
+
+        <label for="feature7">Feature 7:</label>
+        <input type="text" id="feature7" name="feature7" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
